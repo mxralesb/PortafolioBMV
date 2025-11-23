@@ -387,6 +387,46 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
+/* SKILLS SECTION ESPECÍFICA */
+
+#skills {
+  scroll-margin-top: 90px; /* para que el scroll desde el menú no corte el título */
+}
+
+.skills-grid .card h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.skills-grid .card ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.9rem;
+  color: #e5e7eb;
+}
+
+.skills-grid .card ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  line-height: 1.4;
+}
+
+.skills-grid .card ul li::before {
+  content: '▹';
+  margin-top: 2px;
+  font-size: 0.8rem;
+  color: #f97316; /* pequeño acento naranja */
+}
+
+/* un poquito más de aire entre las tarjetas en pantallas grandes */
+@media (min-width: 900px) {
+  .skills-grid {
+    gap: 20px;
+  }
+}
+
+
 .projects-grid {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
