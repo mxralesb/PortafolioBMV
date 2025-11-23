@@ -233,38 +233,47 @@ function App() {
         </section>
 
         {/* SKILLS */}
-        <section className="section" id="skills">
-          <h2 className="section-title">Skills &amp; stack</h2>
-          <div className="grid skills-grid">
-            <div className="card">
-              <h3>Data &amp; BI</h3>
-              <ul>
-                <li>Power BI (medidas DAX, segmentadores, KPIs)</li>
-                <li>Excel avanzado (Power Query, LET, XLOOKUP, macros)</li>
-                <li>Modelado de datos de RRHH, reclutamiento y operaciones</li>
-                <li>Diseño de dashboards ejecutivos e informes</li>
-              </ul>
-            </div>
-            <div className="card">
-              <h3>Desarrollo web</h3>
-              <ul>
-                <li>Frontend: React.js, Vite, HTML, CSS, JavaScript</li>
-                <li>Backend: Node.js, Express</li>
-                <li>Bases de datos: PostgreSQL</li>
-                <li>Consumo de APIs REST (Recruitee, servicios internos)</li>
-              </ul>
-            </div>
-            <div className="card">
-              <h3>Soft skills &amp; procesos</h3>
-              <ul>
-                <li>Comunicación con equipos de RRHH, BI y clientes (ES / EN / PT).</li>
-                <li>Documentación técnica y académica (tesis, informes).</li>
-                <li>Análisis de requerimientos y traducción al lenguaje técnico.</li>
-                <li>Orientación a resultados y mejora continua.</li>
-              </ul>
-            </div>
-          </div>
-        </section>
+ <section className="section" id="skills">
+  <h2 className="section-title">Skills &amp; Stack</h2>
+
+  <div className="grid skills-grid">
+    {/* DATA & BI */}
+    <div className="card">
+      <h3>Data &amp; Business Intelligence</h3>
+      <ul>
+        <li>Modelado de datos para RRHH, Operaciones y Reclutamiento.</li>
+        <li>Power BI avanzado (DAX, KPIs, segmentadores, layouts ejecutivos).</li>
+        <li>Excel avanzado (Power Query, LET, XLOOKUP, macros con VBA).</li>
+        <li>Construcción de dashboards orientados a toma de decisiones.</li>
+        <li>Integración de fuentes diversas (SQL, APIs, Excel, Recruitee, Ally+).</li>
+      </ul>
+    </div>
+
+    {/* WEB DEV */}
+    <div className="card">
+      <h3>Desarrollo Web</h3>
+      <ul>
+        <li>Frontend: React.js · Vite · HTML · CSS · JavaScript.</li>
+        <li>Backend: Node.js · Express con arquitectura modular.</li>
+        <li>Bases de datos: PostgreSQL (consultas, relaciones, optimización).</li>
+        <li>Consumo y diseño de APIs REST para sistemas internos y externos.</li>
+        <li>Aplicaciones centradas en UX, baja conectividad y dispositivos móviles.</li>
+      </ul>
+    </div>
+
+    {/* SOFT SKILLS */}
+    <div className="card">
+      <h3>Soft Skills &amp; Procesos</h3>
+      <ul>
+        <li>Comunicación efectiva con RRHH, BI, Operaciones y equipos técnicos.</li>
+        <li>Documentación técnica clara (manuales, informes, tesis, procesos).</li>
+        <li>Análisis de requerimientos y traducción a soluciones técnicas.</li>
+        <li>Gestión de proyectos ágiles y entrega continua de valor.</li>
+        <li>Trabajo colaborativo en entornos multinivel (ES / EN / PT).</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
         {/* PROYECTOS */}
         <section className="section" id="proyectos">
